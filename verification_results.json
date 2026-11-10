@@ -1,0 +1,65 @@
+{
+  "models": {
+    "actuarial_engine": {
+      "status": "SUCCESS",
+      "pure_premium": 106.20381701911593,
+      "frequency": 0.07092365802680281,
+      "severity": 1497.4385130978492
+    }
+  },
+  "agents": {
+    "customer_profile": {
+      "status": "SUCCESS",
+      "confidence": 0.95,
+      "requires_review": false
+    },
+    "document_intelligence": {
+      "status": "SUCCESS",
+      "confidence": 1.0,
+      "requires_review": false
+    },
+    "risk_assessment": {
+      "status": "CAUTION",
+      "confidence": 0.8,
+      "requires_review": false,
+      "premium": 23.818810335228882
+    },
+    "claims_analysis": {
+      "status": "SUCCESS",
+      "confidence": 0.8,
+      "requires_review": false
+    },
+    "governance_validation": {
+      "status": "APPROVED",
+      "confidence": 0.93,
+      "requires_review": false,
+      "quality_score": 0.93
+    }
+  },
+  "orchestration": {
+    "langgraph": {
+      "status": "SUCCESS",
+      "case_id": "TEST_CASE_001",
+      "agents_executed": [
+        "customer_profile",
+        "document_intelligence",
+        "risk_assessment",
+        "claims_analysis",
+        "governance_validation"
+      ],
+      "requires_review": false
+    }
+  },
+  "rag": {
+    "system": {
+      "status": "SUCCESS",
+      "total_documents": 6,
+      "vector_store_size": 6,
+      "search_results": 3,
+      "pymupdf_available": true,
+      "ocr_available": true,
+      "sklearn_available": true
+    }
+  },
+  "overall_status": "GOOD"
+}

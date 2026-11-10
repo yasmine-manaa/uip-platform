@@ -1,0 +1,8 @@
+Attestation d'assurance
+Numéro de police: POL123456789
+Assuré: Test User
+Véhicule: Peugeot 208
+Immatriculation: AA-123-AA
+Début de couverture: 01/01/2024
+Fin de couverture: 31/12/2024
+Garantie: Tous Risques

@@ -1,0 +1,7 @@
+Carte Grise
+Immatriculation: AA-123-AA
+Marque: Peugeot
+Modèle: 208
+Année: 2020
+Puissance: 75 CV
+Carburant: Diesel
