@@ -56,6 +56,28 @@ frontend/build/
 datasets/processed/
 !datasets/raw/
 
+# Model artifacts and results (too large for GitHub)
+models/**/*.pkl
+models/**/*.joblib
+models/**/*.h5
+models/**/*.pt
+models/**/*.pth
+models/**/*.onnx
+models/**/artifacts/
+models/**/results/
+vector_store/*.pkl
+knowledge_base/documents/*.json
+
+# Test and temporary files
+backend/test_*.py
+backend/simple_check.py
+backend/check_db.py
+check_db.py
+read_cdc.py
+*.png
+*.jpg
+*.jpeg
+
 # Temporary files
 temp/
 tmp/
